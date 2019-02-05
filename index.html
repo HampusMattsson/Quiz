@@ -8,24 +8,27 @@
 
 </head>
 <body>
-<h1>Quiz</h1>
+  <h1>Quiz</h1>
 
-<h2>Vad är detta?</h2>
-<img src="img/stone.png" width="200">
+  <h2>Vad är detta?</h2>
 
-<form method="POST">
-  <div class="form-group">
-    <label for="svar">Svar</label>
-    <input type="text" class="form-control" id="answer" placeholder="Skriv ditt svar">
-    <small id="help" class="form-text text-muted">Skriv endast med små bokstäver</small>
+  <div id="bild" class="bild0 storlek">
+    
   </div>
-  <button class="btn btn-success" type="button" onclick="checkAnswer()">Svara</button>
- </form>
-<h2 id="visa">Dina antal rätt: 0</h2>
+
+  <form method="POST">
+    <div class="form-group">
+      <label for="svar">Svar</label>
+      <input type="text" class="form-control" id="answer" placeholder="Skriv ditt svar">
+      <small id="help" class="form-text text-muted">Skriv endast med små bokstäver</small>
+    </div>
+    <button class="btn btn-success" type="button" onclick="checkAnswer()">Svara</button>
+  </form>
+  <h2 id="visa">Dina antal rätt: 0</h2>
 
 
-<h3 id="kvar">Antal Frågor kvar: 10</h3>
+  <h3 id="kvar">Antal Frågor kvar: 10</h3>
 
-<script type="text/javascript" src="js/skript.js"></script>
+  <script type="text/javascript" src="js/skript.js"></script>
 </body>
 </html>
