@@ -1,19 +1,57 @@
 body{
 	font-family: Verdana;
-	padding: 20px;
+	padding: 15px;
 }
 .storlek{
-background-size: 200px;
-width: 250px;
-height: 250px;
+background-size: 400px;
+width: 400px;
+height: 275px;
+}
+#answer{
+	width: 500px;
 }
 .bild0{
-	background-image: url("../img/stone.png");
+	background-image: url("../img/ps2.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .bild1{
-	background-image: url("../img/apa.jpg");
+	background-image: url("../img/usbc.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
+}
+.bild2{
+	background-image: url("../img/c++.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.bild3{
+	background-image: url("../img/gpu.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.bild4{
+	background-image: url("../img/yt.png");
+	background-position: center;
+	background-repeat: no-repeat;'
+}
+.bild5{
+	background-image: url("../img/dongle.jpg");
+	background-position: center;
+	background-repeat: no-repeat;'
+}
+.bild6{
+	background-image: url("../img/iphone.jpg");
+	background-position: center;
+	background-repeat: no-repeat;'
+}
+.bild7{
+	background-image: url("../img/stevejobs.jpg");
+	background-position: center;
+	background-repeat: no-repeat;'
+}
+.bild8{
+	background-image: url("../img/html.jpg");
+	background-position: center;
+	background-repeat: no-repeat;'
 }
