@@ -1,10 +1,10 @@
 var antal = 0;
 var fragor = 10;
 
-var svar = ["playstation2", "usbc", "c++", "grafikkort", "google", "dongle", "qi", "2011", "html"]
+var svar = ["playstation2", "usbc", "c++", "grafikkort", "google", "dongle", "qi", "2011", "html", "binäratalsystemet"]
 var froga = ["Vad heter denna konsoll?", "Vad heter denna kontakt?", "Vad heter detta programmeringsspråk?", "Vad är detta för något?", 
 "Vilka är skaparna av denna webbsida?", "Vad kallas en sån här?", "Vad heter standarden som iPhones använder för trådlös laddning?", "När dog denna herre?",
-"Vad heter detta programmeringsspråk? (har du fel får du F)"]
+"Vad heter detta programmeringsspråk? (har du fel får du F)", "Vad heter talsystemet som datorer använder sig av?"]
 
 var forsok = 0;
 
@@ -15,7 +15,7 @@ function checkAnswer(){
 
 	if (answer == svar[forsok]){
 		console.log("du hade rätt");
-		antal=(antal+1);
+		antal++;
 	} else{
 		console.log("du hade FEL");
 	}
