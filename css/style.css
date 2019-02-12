@@ -2,6 +2,9 @@ body{
 	font-family: Verdana;
 	padding: 15px;
 }
+.titel{
+	font-weight: bold;
+}
 .storlek{
 background-size: 400px;
 width: 400px;
