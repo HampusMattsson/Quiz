@@ -30,6 +30,14 @@ function checkAnswer(){
 	document.getElementById("answer").innerHTML = "";
 
 	document.getElementById("froga").innerHTML = (froga[forsok]);
+
+	if (forsok==10){
+		console.log("test")
+
+		document.getElementById("froga").innerHTML = "Grattis du fick "+(antal)+" rätt!";
+		hejsan.classList.remove('bild9');
+		hejsan.classList.remove('storlek');
+	}
 	
 	return false;
 }
