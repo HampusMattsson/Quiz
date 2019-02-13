@@ -10,6 +10,9 @@ background-size: 400px;
 width: 400px;
 height: 275px;
 }
+.input{
+	display: none;
+}
 #answer{
 	width: 500px;
 }

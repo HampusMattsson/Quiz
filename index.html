@@ -16,18 +16,22 @@
     
   </div>
 
+  <div id="input" class="hej ">
   <form method="POST">
     <div class="form-group">
       <label for="svar">Svar</label>
       <input type="text" class="form-control" id="answer" placeholder="Skriv ditt svar">
       <small id="help" class="form-text text-muted">Skriv endast med små bokstäver och UTAN mellanslag</small>
     </div>
-    <button class="btn btn-success" type="button" onclick="checkAnswer()">Svara</button>
+    <button id="knapp" class="btn btn-success" type="button" onclick="checkAnswer()">Svara</button>
   </form>
+  </div>
   <h2 id="visa">Dina antal rätt: 0</h2>
 
   <h3 id="kvar">Antal Frågor kvar: 10</h3>
 
-  <script type="text/javascript" src="js/skript.js"></script>
+  <script type="text/javascript" src="js/skript.js" charset="utf-8"></script>
+  <script type="text/javascript" src="js/jquery.js" charset="utf-8"></script>
+
 </body>
 </html>

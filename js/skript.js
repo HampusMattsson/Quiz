@@ -37,7 +37,14 @@ function checkAnswer(){
 		document.getElementById("froga").innerHTML = "Grattis du fick "+(antal)+" rätt!";
 		hejsan.classList.remove('bild9');
 		hejsan.classList.remove('storlek');
+
+		var block = document.getElementById('input');
+		block.classList.add('input');
+
+		document.getElementById("visa").innerHTML = "";
+		document.getElementById("kvar").innerHTML = "";
 	}
+
 	
 	return false;
 }
