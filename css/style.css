@@ -13,6 +13,9 @@ height: 275px;
 .input{
 	display: none;
 }
+.hopp{
+	margin-top: 30px;
+}
 #answer{
 	width: 500px;
 }

@@ -4,7 +4,7 @@ var fragor = 10;
 var svar = ["playstation2", "usbc", "c++", "grafikkort", "google", "dongle", "qi", "2011", "html", "binäratalsystemet"]
 var froga = ["Vad heter denna konsoll?", "Vad heter denna kontakt?", "Vad heter detta programmeringsspråk?", "Vad är detta för något?", 
 "Vilka är skaparna av denna webbsida?", "Vad kallas en sån här?", "Vad heter standarden som iPhones använder för trådlös laddning?", "När dog denna herre?",
-"Vad heter detta programmeringsspråk? (har du fel får du F)", "Vad heter talsystemet som datorer använder sig av?"]
+"Vad heter detta för märksspråk?", "Vad heter talsystemet som datorer använder sig av?"]
 
 var forsok = 0;
 
@@ -27,9 +27,10 @@ function checkAnswer(){
 
 	document.getElementById("visa").innerHTML = "Dina antal rätt: "+(antal);
 	document.getElementById("kvar").innerHTML = "Antal frågor kvar: "+(fragor);
-	document.getElementById("answer").innerHTML = "";
+	document.getElementById("answer").innerHTML = '';
 
 	document.getElementById("froga").innerHTML = (froga[forsok]);
+
 
 	if (forsok==10){
 		console.log("test")
@@ -40,6 +41,9 @@ function checkAnswer(){
 
 		var block = document.getElementById('input');
 		block.classList.add('input');
+
+		var fin = document.getElementById('froga');
+		fin.classList.add('hopp');
 
 		document.getElementById("visa").innerHTML = "";
 		document.getElementById("kvar").innerHTML = "";

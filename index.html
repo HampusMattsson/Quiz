@@ -10,7 +10,7 @@
 <body>
   <h1 class="titel" id="titel">Teknik Quiz</h1>
 
-  <h2 id="froga">Vad heter denna konsol?</h2>
+  <h2 id="froga" class="hej">Vad heter denna konsol?</h2>
 
   <div id="bild" class="bild0 storlek">
     
@@ -20,7 +20,7 @@
   <form method="POST">
     <div class="form-group">
       <label for="svar">Svar</label>
-      <input type="text" class="form-control" id="answer" placeholder="Skriv ditt svar">
+      <input id="answer" class="form-control" type="text" placeholder="Skriv ditt svar">
       <small id="help" class="form-text text-muted">Skriv endast med små bokstäver och UTAN mellanslag</small>
     </div>
     <button id="knapp" class="btn btn-success" type="button" onclick="checkAnswer()">Svara</button>
